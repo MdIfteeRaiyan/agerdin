@@ -1,0 +1,14 @@
+AGERDIN RELEASE 75
+
+What changed
+- Added nine distinct, warm-toned game thumbnails, compressed as one 275 KB image asset; removed decorative card symbols for a cleaner layout.
+- Five Stones now uses a visible skill-based catch window, fair retries, and a three-miss limit instead of a random catch result.
+- Pen Fight swipe strength now depends on how accurately the flick is aimed toward the rival pen.
+- Paper Football has a clearly marked centre goal, tactical computer choices at higher difficulty, and proper win/loss states when a side has no legal move.
+- Refined cricket opponent selection and removed duplicate screen-reader announcements for the six-finger hand.
+
+Checks run
+- JavaScript syntax check and git diff whitespace check passed.
+- Browser-tested a complete Five Stones win, pen-fight move and computer response, hardest Paper Football response, and notebook-cricket six-run / matching-fingers wicket / second-innings transition.
+- Confirmed nine playable cards use the new artwork and no desktop horizontal overflow at 1363px viewport width.
+- Physical iOS and Android testing is not represented as completed in this build.
