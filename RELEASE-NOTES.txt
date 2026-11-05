@@ -6,6 +6,10 @@ Restored content and behavior
 - Restored six computer-shop archive entries: Sonic 2, Super Mario World, Contra, Tekken 3, Dangerous Dave, and Prince of Persia.
 - Restored the seven third-party game links, including Cadillacs and Dinosaurs, KOF, Mortal Kombat, Street Fighter II, Sonic 2, Super Mario World, and Vice City.
 - Reconnected the bundled 3×3 real-photo game thumbnail sheet and the photo-credit gallery.
+<<<<<<< HEAD
+=======
+- Fixed the duplicate game-art renderer so all nine playable cards actually display their bundled photographic thumbnails instead of the SVG fallback.
+>>>>>>> 2d5cd49 (Fix playable game thumbnails)
 - Restored the loading screen, Google verification meta tag, linked favicon, safe-area viewport, copyright year, author credit, and consent-based memory form.
 - Kept the newer playable carrom and table-tennis cabinet games.
 

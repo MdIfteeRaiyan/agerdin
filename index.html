@@ -1146,6 +1146,7 @@ function renderMemoryAlbum(){
     function gameIllustration(icon,name,category,sceneKey="",family=""){
       const safe=x=>String(x||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
       const title=safe(name),alt=safe(category||title),key=String(sceneKey||"").toLowerCase(),nm=String(name||"").toLowerCase(),cat=String(family||"").toLowerCase();
+      if(cat==="play")return '<div class="play-thumb play-thumb--'+key+'" role="img" aria-label="'+title+'"></div>';
       const frame='<svg viewBox="0 0 480 190" role="img" aria-label="'+title+' · '+alt+'"><rect width="480" height="190" fill="#e9ddc5"/><path d="M18 14h444v162H18z" fill="#f5eddb" stroke="#b5a17a" stroke-dasharray="4 6"/><circle cx="420" cy="42" r="18" fill="#d9b66d" opacity=".75"/><text x="32" y="34" fill="#65724e" font-size="11" font-family="monospace" letter-spacing="1.5">AGERDIN · OLD PLAYBOOK</text>';
       const finish='<text x="32" y="160" fill="#6b614c" font-size="13" font-family="Literata,serif">'+title+'</text></svg>';
       let art="";
