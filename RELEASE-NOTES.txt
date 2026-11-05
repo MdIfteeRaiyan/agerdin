@@ -1,14 +1,18 @@
-AGERDIN RELEASE 75
+AGERDIN · RECOVERY BUILD
 
-What changed
-- Added nine distinct, warm-toned game thumbnails, compressed as one 275 KB image asset; removed decorative card symbols for a cleaner layout.
-- Five Stones now uses a visible skill-based catch window, fair retries, and a three-miss limit instead of a random catch result.
-- Pen Fight swipe strength now depends on how accurately the flick is aimed toward the rival pen.
-- Paper Football has a clearly marked centre goal, tactical computer choices at higher difficulty, and proper win/loss states when a side has no legal move.
-- Refined cricket opponent selection and removed duplicate screen-reader announcements for the six-finger hand.
+Restored from the complete repository snapshot before the accidental large index replacement.
 
-Checks run
-- JavaScript syntax check and git diff whitespace check passed.
-- Browser-tested a complete Five Stones win, pen-fight move and computer response, hardest Paper Football response, and notebook-cricket six-run / matching-fingers wicket / second-innings transition.
-- Confirmed nine playable cards use the new artwork and no desktop horizontal overflow at 1363px viewport width.
-- Physical iOS and Android testing is not represented as completed in this build.
+Restored content and behavior
+- Restored six computer-shop archive entries: Sonic 2, Super Mario World, Contra, Tekken 3, Dangerous Dave, and Prince of Persia.
+- Restored the seven third-party game links, including Cadillacs and Dinosaurs, KOF, Mortal Kombat, Street Fighter II, Sonic 2, Super Mario World, and Vice City.
+- Reconnected the bundled 3×3 real-photo game thumbnail sheet and the photo-credit gallery.
+- Restored the loading screen, Google verification meta tag, linked favicon, safe-area viewport, copyright year, author credit, and consent-based memory form.
+- Kept the newer playable carrom and table-tennis cabinet games.
+
+Validation
+- Inline JavaScript syntax check passed.
+- Vercel configuration parses as JSON.
+- No duplicate HTML IDs or broken in-page links were found.
+- The thumbnail sheet and favicon files are present and referenced.
+- External photos and game destinations still depend on their third-party hosts; they were not live-checked in this build.
+- Physical iOS and Android testing was not performed.
