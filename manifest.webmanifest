@@ -1,0 +1,26 @@
+{
+  "name": "আগেরদিন — Agerdin",
+  "short_name": "আগেরদিন",
+  "description": "বাংলাদেশের শৈশবের খেলা আর পাড়ার স্মৃতি",
+  "lang": "bn",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eee4cf",
+  "theme_color": "#292824",
+  "icons": [
+    {
+      "src": "/assets/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

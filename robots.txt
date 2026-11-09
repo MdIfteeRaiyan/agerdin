@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agerdin.vercel.app/sitemap.xml
